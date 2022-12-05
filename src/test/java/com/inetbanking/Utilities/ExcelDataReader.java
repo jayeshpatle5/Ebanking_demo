@@ -14,7 +14,7 @@ import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
 
 public class ExcelDataReader {
-	public static String path ="D:\\Projects\\inetBankingV1\\src\\test\\java\\com\\inetbanking\\TestData\\LoginDataXL.xlsx";
+	public static String path ="D:\\eclipse-workspace\\inetBankingV1\\src\\test\\java\\com\\inetbanking\\TestData\\LoginDataXL.xlsx";
 	
 	public static void readExcelData(String vParameter1, String vValue1, String vParameter2, String vValue2) throws FilloException{
 		

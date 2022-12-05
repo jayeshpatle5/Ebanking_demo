@@ -11,7 +11,7 @@ public class TC_LoginTestDDT extends BaseClass
     @Test(dataProvider = "logindata")
 	public void loginDDT(String str1,String str2,String str3){
 
-System.out.println(str1+ " "+str2+" "+str3);
+  System.out.println(str1+ " "+str2+" "+str3);
 
 
 	}

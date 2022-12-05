@@ -17,7 +17,7 @@ public class XLUtils {
 	public static XSSFSheet ws;
 	public static XSSFRow row;
 	public static XSSFCell cell;
-	public static String path = "D:\\Projects\\inetBankingV1\\src\\test\\java\\com\\inetbanking\\TestData\\LoginDataXL.xlsx";
+	public static String path = "D:\\eclipse-workspace\\inetBankingV1\\src\\test\\java\\com\\inetbanking\\TestData\\LoginDataXL.xlsx";
 
 	public static int getRowCount( String xlSheet) throws Throwable
 	{
