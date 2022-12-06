@@ -104,6 +104,7 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		driver.get(URL);
+		logger.info("URL is opened");
 		//logger=Logger.getLogger("ebanking");
 		PropertyConfigurator.configure("log4j.properties");
 	}

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import com.inetbanking.PageObjects.BaseClass;
 import com.inetbanking.PageObjects.LoginPage;
-import com.inetbanking.Utilities.ExcelDataReader;
+
 //Login test changed
 
 public class TC_LoginTest extends BaseClass {
@@ -19,11 +19,11 @@ public class TC_LoginTest extends BaseClass {
 	@Test
 	public void LoginTest() throws Throwable
 	{
-		LinkedHashMap<String, String> data = ExcelDataReader.readTCBinding("TC_001","LoginDetails");	
-		logger.info("URL is opened");
+			
+		
 		
 		lp=new LoginPage();
-		lp.Login(data.get("Username"),data.get("Password"));
+		lp.Login("mngr458559","emamEhy");
 		logger.info("User Logged-in Successfully and entered into HomePage");
 		
 		
