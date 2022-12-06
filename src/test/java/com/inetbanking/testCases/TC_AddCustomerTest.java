@@ -15,6 +15,7 @@ import com.inetbanking.PageObjects.BaseClass;
 import com.inetbanking.PageObjects.LoginPage;
 
 public class TC_AddCustomerTest extends BaseClass{
+	//Code Updated
 	Logger logger=Logger.getLogger(TC_LoginTest.class);
 	LoginPage lp;
 
