@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import com.inetbanking.PageObjects.BaseClass;
 import com.inetbanking.PageObjects.LoginPage;
 
-//Login test changed
+//updated Login Test
 
 public class TC_LoginTest extends BaseClass {
 	
