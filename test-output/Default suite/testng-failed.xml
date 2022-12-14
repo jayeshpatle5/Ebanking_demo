@@ -8,8 +8,8 @@
           <include name="setup"/>
           <include name="beforeSuite"/>
           <include name="addNewCustomer"/>
-          <include name="afterTest"/>
           <include name="tearDown"/>
+          <include name="afterTest"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.inetbanking.testCases.TC_AddCustomerTest -->

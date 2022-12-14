@@ -7,7 +7,7 @@
         <methods>
           <include name="setup"/>
           <include name="beforeSuite"/>
-          <include name="loginDDT" invocation-numbers="1 2 4"/>
+          <include name="loginDDT" invocation-numbers="0 1 2 4"/>
           <include name="afterTest"/>
           <include name="tearDown"/>
           <include name="beforeTest"/>
